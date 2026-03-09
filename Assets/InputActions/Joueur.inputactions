@@ -1,6 +1,77 @@
 {
-    "version": 0,
+    "version": 1,
     "name": "Joueur",
-    "maps": [],
+    "maps": [
+        {
+            "name": "Joueur",
+            "id": "f88b0bf4-7eab-47af-ad0f-a687b1aa7072",
+            "actions": [
+                {
+                    "name": "Deplacer",
+                    "type": "Value",
+                    "id": "3eb729e1-a5b8-4a57-b949-2b6e60540a0a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Saut",
+                    "type": "Button",
+                    "id": "fd0b69d2-bb00-4286-964d-56377f5591c6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "9789db22-7ff3-47d7-8548-ff197a74bc4e",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Deplacer",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "f3ab4975-2c47-4372-9958-479eb133e72e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Deplacer",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "6352a4ae-300c-4c8a-b497-8b917266da95",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Deplacer",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ee65fd95-0f32-42c7-8263-ad4b2ee3b312",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Saut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
     "controlSchemes": []
 }
