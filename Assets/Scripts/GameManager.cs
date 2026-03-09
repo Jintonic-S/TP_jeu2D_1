@@ -15,6 +15,16 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Jeu");
     }
+    
+    public void RetourMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    
+    public void Recommencer()
+    {
+        SceneManager.LoadScene("Jeu");
+    }
 
     public void QuitterJeu()
     {
