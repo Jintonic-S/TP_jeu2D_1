@@ -20,6 +20,11 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+    
+    public void Recommencer()
+    {
+        SceneManager.LoadScene("Jeu");
+    }
 
     public void QuitterJeu()
     {
